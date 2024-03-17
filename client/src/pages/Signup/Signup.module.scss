@@ -1,0 +1,128 @@
+@import '../../Container';
+@import '../../GlobalVariables';
+
+main .container {
+  @extend .container;
+  position: static;
+  margin-top: 40px;
+  height: calc(100vh - $navHeight - 40px);
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+
+  form {
+    width: 70%;
+
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+
+    h2 {
+      font-weight: 500;
+      margin-bottom: 8px;
+    }
+
+    h2 + p {
+      margin-bottom: 40px;
+    }
+  }
+
+  .image {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 30%;
+    min-height: 100vh;
+    overflow: hidden;
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+
+  .image img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    min-height: 100vh;
+    object-fit: cover;
+  }
+}
+
+svg path {
+  fill: grey;
+}
+
+.inputDiv {
+  margin-bottom: 16px;
+  width: 80%;
+
+  @media (max-width: 992px) {
+    width: 100%;
+  }
+
+  label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 2px;
+  }
+  input {
+    display: block;
+    padding: 10px 20px;
+    margin: 0;
+    border-radius: 5px;
+    border: 1px solid #dddddd;
+    width: 100%;
+    background-color: #f5f5f5;
+  }
+
+  .constraints {
+    margin-top: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 24px;
+    .constrain {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      div {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: $inactiveColor;
+      }
+    }
+  }
+}
+
+.toggleLine {
+  display: flex;
+  justify-content: space-between;
+
+  .showToggle {
+    display: flex;
+    div {
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+
+.submit {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #b8b8b8;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+  display: block;
+  margin-top: 16px;
+  &:hover {
+    background-color: #111111;
+  }
+}
+
+.check {
+  margin-right: 8px;
+}

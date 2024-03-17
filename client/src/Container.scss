@@ -14,50 +14,24 @@
     max-width: 540px;
   }
 }
+
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .container {
     max-width: 720px;
   }
 }
+
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .container {
     max-width: 960px;
   }
 }
+
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   .container {
     max-width: 1140px;
   }
 }
-@font-face {
-  font-family: "poppins";
-  src: url("../public/fonts/Poppins-Regular.ttf") format("truetype"), url("../public/fonts/Poppins-Medium.ttf") format("truetype");
-}
-a {
-  text-decoration: none;
-  color: inherit;
-  cursor: pointer;
-}
-
-button,
-a,
-svg {
-  cursor: pointer;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  color: #161412;
-}
-
-svg {
-  display: flex;
-}/*# sourceMappingURL=App.css.map */

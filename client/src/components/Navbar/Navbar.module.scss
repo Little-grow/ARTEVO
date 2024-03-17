@@ -1,0 +1,101 @@
+$linksGap: 24px;
+$iconsGap: 16px;
+$betweenGap: 72px;
+
+@import '../../GlobalVariables';
+@import '../../Container';
+
+@font-face {
+  font-family: 'linksFont';
+  src: url('../public/fonts/Karla-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'logoFont';
+  src: url('../public/fonts/Kavivanar-Regular.ttf') format('truetype');
+}
+
+nav {
+  height: $navHeight;
+  background-color: white;
+  .container {
+    @extend .container;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+      font-family: 'logoFont', sans-serif;
+      font-size: 1.4rem;
+      letter-spacing: -1px;
+    }
+
+    .options {
+      display: flex;
+      gap: $betweenGap;
+
+      @media (max-width: 992px) {
+        gap: $iconsGap;
+      }
+
+      .links {
+        font-family: 'linksFont', sans-serif;
+        font-size: 1.2rem;
+
+        svg {
+          display: none;
+          fill: $mainColor;
+        }
+
+        ul {
+          display: flex;
+          gap: $linksGap;
+        }
+
+        @media (max-width: 992px) {
+          ul {
+            position: absolute;
+            left: 0;
+            top: $navHeight;
+            padding: 15px;
+            background-color: aliceblue;
+            width: 100%;
+            flex-flow: column;
+            display: none;
+          }
+
+          #menu:checked + ul {
+            display: flex;
+          }
+
+          svg {
+            display: flex;
+          }
+        }
+
+        // ul {
+        // }
+      }
+
+      div.icons ul {
+        display: flex;
+        gap: $iconsGap;
+
+        li:nth-child(1) a svg path,
+        li:nth-child(2) a svg path {
+          fill: $mainColor;
+        }
+
+        li:nth-child(3) a svg path,
+        li:nth-child(4) a svg path {
+          stroke: $mainColor;
+        }
+      }
+    }
+  }
+}
+
+input[type='checkbox']#menu {
+  display: none;
+  visibility: hidden;
+}

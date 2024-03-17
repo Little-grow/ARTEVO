@@ -1,30 +1,11 @@
-@font-face {
-  font-family: 'logoFont';
-  src: url('../public/fonts/Kavivanar-Regular.ttf') format('truetype');
-}
-
-#root {
-  padding: 0;
-  text-align: start;
-}
-
-/* .container {
+.container {
+  position: relative;
   width: 100%;
+  height: 100%;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  background-color: aqua;
-} */
-
-.container {
-  position: relative;
-  width: 100%;
-  margin-left: 0;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  background-color: yellow;
 }
 
 /* Small devices (phones, 576px and up) */
@@ -33,35 +14,21 @@
     max-width: 540px;
   }
 }
-
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .container {
     max-width: 720px;
   }
 }
-
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .container {
     max-width: 960px;
   }
 }
-
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   .container {
     max-width: 1140px;
   }
-}
-
-body {
-  background-color: blue;
-  font-family: 'logoFont', serif;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+}/*# sourceMappingURL=Container.css.map */
