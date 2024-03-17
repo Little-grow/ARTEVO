@@ -1,7 +1,18 @@
+import { useState } from 'react';
 import Navbar from '../../components/Navbar/Navbar';
 import styles from './Signup.module.css';
 
 const Signup = () => {
+  const [showPassword, setShowPassword] = useState(false);
+
+  function handleKeyDown(event) {
+    console.log(event.key);
+    if (event.key === ' ' || event.key === 'Spacebar') {
+      event.preventDefault();
+      setShowPassword((prevState) => !prevState);
+    }
+    event.target.focus();
+  }
   return (
     <>
       <header>
@@ -20,11 +31,25 @@ const Signup = () => {
               <label htmlFor="">Username</label>
               <input type="text" />
             </div>
+
             <div className={styles.inputDiv}>
+              <input
+                type="checkbox"
+                id={styles.showHide}
+                className={styles.check}
+                onChange={(e) => setShowPassword(e.target.checked)}
+                checked={showPassword}
+              />
               <div className={styles.toggleLine}>
                 <label htmlFor="">Password</label>
                 <div className={styles.showToggle}>
-                  <div className="show">
+                  <label
+                    htmlFor={styles.showHide}
+                    tabIndex={0}
+                    role="checkbox"
+                    aria-checked={showPassword ? 'false' : 'true'}
+                    onKeyDown={handleKeyDown}
+                  >
                     <svg
                       width="25"
                       height="24"
@@ -44,8 +69,14 @@ const Signup = () => {
                       />
                     </svg>
                     <p>Show</p>
-                  </div>
-                  <div className="hide">
+                  </label>
+                  <label
+                    htmlFor={styles.showHide}
+                    tabIndex={0}
+                    role="checkbox"
+                    aria-checked={showPassword ? 'true' : 'false'}
+                    onKeyDown={handleKeyDown}
+                  >
                     <svg
                       width="24"
                       height="24"
@@ -61,41 +92,46 @@ const Signup = () => {
                       />
                     </svg>
                     <p>Hide</p>
-                  </div>
+                  </label>
                 </div>
               </div>
 
-              <input type="password" />
+              <input
+                type={showPassword ? 'text' : 'password'}
+                id={styles.password}
+              />
 
               <div className={styles.constraints}>
                 <div className={styles.constrain}>
                   <div className="circle"></div>
-                  <p>At least 8 characters</p>
+                  <p>Use 8 or more characters</p>
                 </div>
                 <div className={styles.constrain}>
                   <div className="circle"></div>
-                  <p>At least 8 characters</p>
+                  <p>One Uppercase character</p>
                 </div>
                 <div className={styles.constrain}>
                   <div className="circle"></div>
-                  <p>At least 8 characters</p>
+                  <p>One lowercase character</p>
                 </div>
                 <div className={styles.constrain}>
                   <div className="circle"></div>
-                  <p>At least 8 characters</p>
+                  <p>One special character</p>
                 </div>
                 <div className={styles.constrain}>
                   <div className="circle"></div>
-                  <p>At least 8 characters</p>
+                  <p>One number</p>
                 </div>
               </div>
             </div>
 
-            <input type="checkbox" id="check" className={styles.check} />
-            <label htmlFor="check">
-              By creating an account, you agree to the Terms of use and Privacy
-              Policy.
-            </label>
+            <div className={styles.terms}>
+              <input type="checkbox" id={styles.check} />
+              <label htmlFor={styles.check}>
+                By creating an account, you agree to the Terms of use and
+                Privacy Policy.
+              </label>
+            </div>
 
             <input
               type="submit"
