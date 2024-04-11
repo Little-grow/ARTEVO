@@ -1,7 +1,24 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\ARTEVO\\api\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{707C94D0-9CB4-4BC5-BCAB-BB1B49E73DDB}|api.csproj|e:\\artevo\\api\\models\\portoflios\\file.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{707C94D0-9CB4-4BC5-BCAB-BB1B49E73DDB}|api.csproj|solutionrelative:models\\portoflios\\file.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{707C94D0-9CB4-4BC5-BCAB-BB1B49E73DDB}|api.csproj|e:\\artevo\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{707C94D0-9CB4-4BC5-BCAB-BB1B49E73DDB}|api.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{707C94D0-9CB4-4BC5-BCAB-BB1B49E73DDB}|api.csproj|e:\\artevo\\api\\controllers\\portoflios\\portoflioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{707C94D0-9CB4-4BC5-BCAB-BB1B49E73DDB}|api.csproj|solutionrelative:controllers\\portoflios\\portoflioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{707C94D0-9CB4-4BC5-BCAB-BB1B49E73DDB}|api.csproj|e:\\artevo\\api\\models\\portoflios\\portoflio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{707C94D0-9CB4-4BC5-BCAB-BB1B49E73DDB}|api.csproj|solutionrelative:models\\portoflios\\portoflio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,6 +51,58 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\ARTEVO\\api\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "E:\\ARTEVO\\api\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-11T15:56:30.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PortofliosController.cs",
+              "DocumentMoniker": "E:\\ARTEVO\\api\\Controllers\\Portoflios\\PortofliosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Portoflios\\PortofliosController.cs",
+              "ToolTip": "E:\\ARTEVO\\api\\Controllers\\Portoflios\\PortofliosController.cs",
+              "RelativeToolTip": "Controllers\\Portoflios\\PortofliosController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T15:15:58.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Portoflio.cs",
+              "DocumentMoniker": "E:\\ARTEVO\\api\\Models\\Portoflios\\Portoflio.cs",
+              "RelativeDocumentMoniker": "Models\\Portoflios\\Portoflio.cs",
+              "ToolTip": "E:\\ARTEVO\\api\\Models\\Portoflios\\Portoflio.cs",
+              "RelativeToolTip": "Models\\Portoflios\\Portoflio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T15:00:25.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "File.cs",
+              "DocumentMoniker": "E:\\ARTEVO\\api\\Models\\Portoflios\\File.cs",
+              "RelativeDocumentMoniker": "Models\\Portoflios\\File.cs",
+              "ToolTip": "E:\\ARTEVO\\api\\Models\\Portoflios\\File.cs",
+              "RelativeToolTip": "Models\\Portoflios\\File.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAQwBkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T14:12:20.171Z",
+              "EditorCaption": ""
             }
           ]
         },

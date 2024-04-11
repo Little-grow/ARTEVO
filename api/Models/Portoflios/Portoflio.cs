@@ -2,6 +2,8 @@
 {
     public class Portoflio
     {
-        // link portoflio model with the artist 
+        public int Id { get; set; }
+
+        public required List<File> Files { get; set; }
     }
 }
