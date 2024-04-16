@@ -5,19 +5,15 @@ $betweenGap: 72px;
 @import '../../GlobalVariables';
 @import '../../Container';
 
-@font-face {
-  font-family: 'linksFont';
-  src: url('../public/fonts/Karla-Regular.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'logoFont';
-  src: url('../public/fonts/Kavivanar-Regular.ttf') format('truetype');
-}
-
 nav {
-  height: $navHeight;
   background-color: white;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: $navHeight;
+  z-index: 99;
+
   .container {
     @extend .container;
     display: flex;
@@ -40,7 +36,7 @@ nav {
 
       .links {
         font-family: 'linksFont', sans-serif;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
 
         svg {
           display: none;

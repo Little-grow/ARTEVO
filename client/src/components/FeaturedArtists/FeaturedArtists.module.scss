@@ -1,0 +1,47 @@
+@import '../../Container';
+@import '../../GlobalVariables';
+
+.container {
+  @extend .container;
+}
+
+.featuredArtists {
+  padding: $sectionPaddingBig 0;
+  background-color: #efefef;
+}
+
+.header {
+  color: #161412;
+  font-family: 'linksFont', sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 48px;
+}
+
+.artists {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.artists__artist {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  border: 1px solid #dddddd;
+  flex: 1;
+  padding-right: 16px;
+}
+
+.artists__artist__name {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-family: 'K2D', sans-serif;
+
+  p {
+    font-weight: 400;
+    font-style: italic;
+  }
+}

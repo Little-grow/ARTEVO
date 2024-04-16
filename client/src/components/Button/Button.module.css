@@ -1,0 +1,22 @@
+.signup, .login {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #b8b8b8;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+  display: block;
+  margin-top: 16px;
+  width: 100%;
+  height: 50px;
+  border-radius: 25px;
+}
+.signup:hover, .login:hover {
+  background-color: #111111;
+}
+
+.login {
+  width: auto;
+  padding: 0 80px;
+}/*# sourceMappingURL=Button.module.css.map */

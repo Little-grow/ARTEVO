@@ -1,0 +1,86 @@
+@import '../../GlobalVariables.scss';
+
+.inputDiv {
+  margin: 32px 0;
+  width: 100%;
+
+  label {
+    display: block;
+    font-size: 14px;
+    color: $fieldColor;
+  }
+  input[type='checkbox'] {
+    visibility: hidden;
+    display: none;
+  }
+  input:not([type='checkbox']) {
+    display: block;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #dddddd;
+    width: 100%;
+    background-color: #f5f5f5;
+  }
+
+  .constraints {
+    margin-top: 12px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 8px 24px;
+    .constrain {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: $inactiveColor;
+      div {
+        flex-shrink: 0;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: $inactiveColor;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+.toggleLine {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .showToggle {
+    display: flex;
+    align-items: flex-end;
+    label {
+      cursor: pointer;
+      display: flex;
+      font-size: 14px;
+      align-items: center;
+      gap: 4px;
+      color: $fieldColor;
+
+      svg path {
+        fill: $fieldColor;
+      }
+    }
+    label[aria-checked='false'] {
+      display: none;
+    }
+  }
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 10px 0px #11111133;
+}
+
+.another {
+  text-align: end;
+  font-size: 14px;
+  color: $fieldColor;
+  text-decoration: underline;
+}
