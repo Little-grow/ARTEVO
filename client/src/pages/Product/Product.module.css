@@ -144,6 +144,7 @@
   justify-content: center;
   align-items: center;
   text-transform: uppercase;
+  width: 100%;
 }
 
 .imgButton, .product__imageDiv__images__preview__imgActive, .product__imageDiv__images__preview__img {
