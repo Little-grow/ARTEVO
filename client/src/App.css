@@ -38,6 +38,12 @@
   font-weight: 500; /* Medium weight */
   font-style: normal;
 }
+@font-face {
+  font-family: "Poppins";
+  src: url("../public/fonts/Poppins-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
 /* Opti Regular */
 @font-face {
   font-family: "Opti";
@@ -66,6 +72,10 @@
 @font-face {
   font-family: "logoFont";
   src: url("../public/fonts/Kavivanar-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../public/fonts/Inter-SemiBold.ttf") format("truetype");
 }
 a {
   text-decoration: none;
