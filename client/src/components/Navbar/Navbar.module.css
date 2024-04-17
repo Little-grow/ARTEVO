@@ -47,7 +47,7 @@ nav .container {
   align-items: center;
 }
 nav .container .logo {
-  font-family: "logoFont", sans-serif;
+  font-family: "Kavivanar", sans-serif;
   font-size: 1.4rem;
   letter-spacing: -1px;
 }
@@ -61,7 +61,7 @@ nav .container .options {
   }
 }
 nav .container .options .links {
-  font-family: "linksFont", sans-serif;
+  font-family: "Karla", sans-serif;
   font-size: 1.1rem;
 }
 nav .container .options .links svg {
