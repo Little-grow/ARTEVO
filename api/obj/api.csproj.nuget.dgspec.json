@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\my codes hole\\ARTEVOO\\ARTEVO\\api\\api.csproj": {}
+    "E:\\ARTEVO\\api\\api.csproj": {}
   },
   "projects": {
-    "D:\\my codes hole\\ARTEVOO\\ARTEVO\\api\\api.csproj": {
+    "E:\\ARTEVO\\api\\api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\my codes hole\\ARTEVOO\\ARTEVO\\api\\api.csproj",
+        "projectUniqueName": "E:\\ARTEVO\\api\\api.csproj",
         "projectName": "api",
-        "projectPath": "D:\\my codes hole\\ARTEVOO\\ARTEVO\\api\\api.csproj",
-        "packagesPath": "C:\\Users\\TECHNICIAN\\.nuget\\packages\\",
-        "outputPath": "D:\\my codes hole\\ARTEVOO\\ARTEVO\\api\\obj\\",
+        "projectPath": "E:\\ARTEVO\\api\\api.csproj",
+        "packagesPath": "C:\\Users\\shahd\\.nuget\\packages\\",
+        "outputPath": "E:\\ARTEVO\\api\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\TECHNICIAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\shahd\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -49,21 +45,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.Data.SqlClient": {
-              "target": "Package",
-              "version": "[5.2.0, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[8.0.4, )"
-            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
-            },
-            "System.Data.SqlClient": {
-              "target": "Package",
-              "version": "[4.8.6, )"
             }
           },
           "imports": [
@@ -85,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
