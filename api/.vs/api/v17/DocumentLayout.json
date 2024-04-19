@@ -1,22 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\ARTEVO\\api\\",
+  "WorkspaceRootPath": "D:\\my codes hole\\ARTEVOO\\ARTEVO\\api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{707C94D0-9CB4-4BC5-BCAB-BB1B49E73DDB}|api.csproj|e:\\artevo\\api\\models\\portoflios\\file.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{707C94D0-9CB4-4BC5-BCAB-BB1B49E73DDB}|api.csproj|solutionrelative:models\\portoflios\\file.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{707C94D0-9CB4-4BC5-BCAB-BB1B49E73DDB}|api.csproj|d:\\my codes hole\\artevoo\\artevo\\api\\models\\users\\collector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{707C94D0-9CB4-4BC5-BCAB-BB1B49E73DDB}|api.csproj|solutionrelative:models\\users\\collector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{707C94D0-9CB4-4BC5-BCAB-BB1B49E73DDB}|api.csproj|e:\\artevo\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{707C94D0-9CB4-4BC5-BCAB-BB1B49E73DDB}|api.csproj|d:\\my codes hole\\artevoo\\artevo\\api\\models\\users\\iuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{707C94D0-9CB4-4BC5-BCAB-BB1B49E73DDB}|api.csproj|solutionrelative:models\\users\\iuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{707C94D0-9CB4-4BC5-BCAB-BB1B49E73DDB}|api.csproj|d:\\my codes hole\\artevoo\\artevo\\api\\models\\users\\artist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{707C94D0-9CB4-4BC5-BCAB-BB1B49E73DDB}|api.csproj|solutionrelative:models\\users\\artist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{707C94D0-9CB4-4BC5-BCAB-BB1B49E73DDB}|api.csproj|d:\\my codes hole\\artevoo\\artevo\\api\\controllers\\users\\artistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{707C94D0-9CB4-4BC5-BCAB-BB1B49E73DDB}|api.csproj|solutionrelative:controllers\\users\\artistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{707C94D0-9CB4-4BC5-BCAB-BB1B49E73DDB}|api.csproj|d:\\my codes hole\\artevoo\\artevo\\api\\controllers\\users\\collectorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{707C94D0-9CB4-4BC5-BCAB-BB1B49E73DDB}|api.csproj|solutionrelative:controllers\\users\\collectorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{707C94D0-9CB4-4BC5-BCAB-BB1B49E73DDB}|api.csproj|D:\\my codes hole\\ARTEVOO\\ARTEVO\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{707C94D0-9CB4-4BC5-BCAB-BB1B49E73DDB}|api.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{707C94D0-9CB4-4BC5-BCAB-BB1B49E73DDB}|api.csproj|e:\\artevo\\api\\controllers\\portoflios\\portoflioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{707C94D0-9CB4-4BC5-BCAB-BB1B49E73DDB}|api.csproj|solutionrelative:controllers\\portoflios\\portoflioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{707C94D0-9CB4-4BC5-BCAB-BB1B49E73DDB}|api.csproj|D:\\my codes hole\\ARTEVOO\\ARTEVO\\api\\models\\portoflios\\portoflio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{707C94D0-9CB4-4BC5-BCAB-BB1B49E73DDB}|api.csproj|solutionrelative:models\\portoflios\\portoflio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{707C94D0-9CB4-4BC5-BCAB-BB1B49E73DDB}|api.csproj|e:\\artevo\\api\\models\\portoflios\\portoflio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{707C94D0-9CB4-4BC5-BCAB-BB1B49E73DDB}|api.csproj|solutionrelative:models\\portoflios\\portoflio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{707C94D0-9CB4-4BC5-BCAB-BB1B49E73DDB}|api.csproj|D:\\my codes hole\\ARTEVOO\\ARTEVO\\api\\Models\\Portoflios\\File.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{707C94D0-9CB4-4BC5-BCAB-BB1B49E73DDB}|api.csproj|solutionrelative:Models\\Portoflios\\File.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{707C94D0-9CB4-4BC5-BCAB-BB1B49E73DDB}|api.csproj|D:\\my codes hole\\ARTEVOO\\ARTEVO\\api\\controllers\\portoflios\\portoflioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{707C94D0-9CB4-4BC5-BCAB-BB1B49E73DDB}|api.csproj|solutionrelative:controllers\\portoflios\\portoflioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,15 +46,67 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Collector.cs",
+              "DocumentMoniker": "D:\\my codes hole\\ARTEVOO\\ARTEVO\\api\\Models\\Users\\Collector.cs",
+              "RelativeDocumentMoniker": "Models\\Users\\Collector.cs",
+              "ToolTip": "D:\\my codes hole\\ARTEVOO\\ARTEVO\\api\\Models\\Users\\Collector.cs",
+              "RelativeToolTip": "Models\\Users\\Collector.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T13:41:24.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IUser.cs",
+              "DocumentMoniker": "D:\\my codes hole\\ARTEVOO\\ARTEVO\\api\\Models\\Users\\IUser.cs",
+              "RelativeDocumentMoniker": "Models\\Users\\IUser.cs",
+              "ToolTip": "D:\\my codes hole\\ARTEVOO\\ARTEVO\\api\\Models\\Users\\IUser.cs",
+              "RelativeToolTip": "Models\\Users\\IUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T13:37:49.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Artist.cs",
+              "DocumentMoniker": "D:\\my codes hole\\ARTEVOO\\ARTEVO\\api\\Models\\Users\\Artist.cs",
+              "RelativeDocumentMoniker": "Models\\Users\\Artist.cs",
+              "ToolTip": "D:\\my codes hole\\ARTEVOO\\ARTEVO\\api\\Models\\Users\\Artist.cs",
+              "RelativeToolTip": "Models\\Users\\Artist.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T13:36:14.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CollectorsController.cs",
+              "DocumentMoniker": "D:\\my codes hole\\ARTEVOO\\ARTEVO\\api\\Controllers\\Users\\CollectorsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Users\\CollectorsController.cs",
+              "ToolTip": "D:\\my codes hole\\ARTEVOO\\ARTEVO\\api\\Controllers\\Users\\CollectorsController.cs",
+              "RelativeToolTip": "Controllers\\Users\\CollectorsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T03:22:00.402Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Bookmark",
@@ -54,24 +126,50 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "ArtistsController.cs",
+              "DocumentMoniker": "D:\\my codes hole\\ARTEVOO\\ARTEVO\\api\\Controllers\\Users\\ArtistsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Users\\ArtistsController.cs",
+              "ToolTip": "D:\\my codes hole\\ARTEVOO\\ARTEVO\\api\\Controllers\\Users\\ArtistsController.cs",
+              "RelativeToolTip": "Controllers\\Users\\ArtistsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T09:49:52.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "File.cs",
+              "DocumentMoniker": "D:\\my codes hole\\ARTEVOO\\ARTEVO\\api\\Models\\Portoflios\\File.cs",
+              "RelativeDocumentMoniker": "Models\\Portoflios\\File.cs",
+              "ToolTip": "D:\\my codes hole\\ARTEVOO\\ARTEVO\\api\\Models\\Portoflios\\File.cs",
+              "RelativeToolTip": "Models\\Portoflios\\File.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAQwBkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T14:12:20.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\ARTEVO\\api\\appsettings.json",
+              "DocumentMoniker": "D:\\my codes hole\\ARTEVOO\\ARTEVO\\api\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "E:\\ARTEVO\\api\\appsettings.json",
+              "ToolTip": "D:\\my codes hole\\ARTEVOO\\ARTEVO\\api\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAB/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-04-11T15:56:30.239Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "PortofliosController.cs",
-              "DocumentMoniker": "E:\\ARTEVO\\api\\Controllers\\Portoflios\\PortofliosController.cs",
+              "DocumentMoniker": "D:\\my codes hole\\ARTEVOO\\ARTEVO\\api\\Controllers\\Portoflios\\PortofliosController.cs",
               "RelativeDocumentMoniker": "Controllers\\Portoflios\\PortofliosController.cs",
-              "ToolTip": "E:\\ARTEVO\\api\\Controllers\\Portoflios\\PortofliosController.cs",
+              "ToolTip": "D:\\my codes hole\\ARTEVOO\\ARTEVO\\api\\Controllers\\Portoflios\\PortofliosController.cs",
               "RelativeToolTip": "Controllers\\Portoflios\\PortofliosController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -80,48 +178,21 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Portoflio.cs",
-              "DocumentMoniker": "E:\\ARTEVO\\api\\Models\\Portoflios\\Portoflio.cs",
+              "DocumentMoniker": "D:\\my codes hole\\ARTEVOO\\ARTEVO\\api\\Models\\Portoflios\\Portoflio.cs",
               "RelativeDocumentMoniker": "Models\\Portoflios\\Portoflio.cs",
-              "ToolTip": "E:\\ARTEVO\\api\\Models\\Portoflios\\Portoflio.cs",
+              "ToolTip": "D:\\my codes hole\\ARTEVOO\\ARTEVO\\api\\Models\\Portoflios\\Portoflio.cs",
               "RelativeToolTip": "Models\\Portoflios\\Portoflio.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-11T15:00:25.59Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "File.cs",
-              "DocumentMoniker": "E:\\ARTEVO\\api\\Models\\Portoflios\\File.cs",
-              "RelativeDocumentMoniker": "Models\\Portoflios\\File.cs",
-              "ToolTip": "E:\\ARTEVO\\api\\Models\\Portoflios\\File.cs",
-              "RelativeToolTip": "Models\\Portoflios\\File.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAQwBkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T14:12:20.171Z",
-              "EditorCaption": ""
             }
           ]
         },
         {
-          "DockedWidth": 433,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 374,
+          "DockedWidth": 200,
           "SelectedChildIndex": -1,
           "Children": [
             {
