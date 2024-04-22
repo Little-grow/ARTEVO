@@ -106,4 +106,9 @@ nav .container .options div.icons ul li:nth-child(4) a svg path {
 input[type=checkbox]#menu {
   display: none;
   visibility: hidden;
+}
+
+:global(.active) {
+  font-weight: bold;
+  display: block;
 }/*# sourceMappingURL=Navbar.module.css.map */

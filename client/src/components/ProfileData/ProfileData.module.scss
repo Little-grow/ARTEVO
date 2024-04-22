@@ -1,0 +1,59 @@
+@import '../../Container';
+@import '../../GlobalVariables';
+
+.container {
+  @extend .container;
+}
+
+.profileData {
+  font-family: 'Inter', 'sans-serif';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.profileData__image {
+  position: relative;
+}
+
+.profileData__image__edit {
+  position: absolute;
+  bottom: 0;
+  right: 12px;
+  border-radius: 50%;
+  width: 32px;
+  padding: 4px;
+  height: 32px;
+  background-color: white;
+}
+
+.profileData__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profileData__followers {
+  display: flex;
+  gap: 64px;
+
+  h4 {
+    margin: 0;
+  }
+}
+
+.profileData__follow {
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  padding: 8px 24px;
+  border-radius: 16px;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.profileData__text__username {
+  margin: 0;
+}

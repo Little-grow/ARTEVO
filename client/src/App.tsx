@@ -12,6 +12,8 @@ import { useState } from 'react';
 import image1 from '../public/images/cart/1.png';
 import image2 from '../public/images/cart/2.png';
 import image3 from '../public/images/cart/3.png';
+import Profile from './pages/Profile/Profile';
+import NewProject from './pages/NewProject/NewProject';
 
 function App() {
   const initialCart = [
@@ -44,6 +46,8 @@ function App() {
         <Route path="/store" element={<Store />} />
         <Route path="/product" element={<Product />} />
         <Route path="/cart" element={<Cart data={cartItems} />} />
+        <Route path="/profile" element={<Profile />} />
+        <Route path="/new" element={<NewProject />} />
         <Route path="*" element={<div>404 Not Found</div>} />
       </Routes>
     </BrowserRouter>

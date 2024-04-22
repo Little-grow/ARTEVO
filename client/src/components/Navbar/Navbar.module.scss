@@ -95,3 +95,8 @@ input[type='checkbox']#menu {
   display: none;
   visibility: hidden;
 }
+
+:global(.active) {
+  font-weight: bold;
+  display: block;
+}

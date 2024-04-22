@@ -1,0 +1,14 @@
+@import '../../Container';
+@import '../../GlobalVariables';
+
+.container {
+  @extend .container;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.profile {
+  font-family: 'Inter', 'sans-serif';
+  padding: $sectionPadding 0;
+}

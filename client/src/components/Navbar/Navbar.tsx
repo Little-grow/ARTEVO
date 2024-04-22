@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import styles from './Navbar.module.css';
 
 type propsType = {
@@ -23,9 +24,9 @@ const Navbar = (props: propsType) => {
     <nav>
       <div className={styles.container}>
         <div>
-          <a href="#" className={styles.logo}>
+          <NavLink to="/" className={styles.logo}>
             artevo
-          </a>
+          </NavLink>
         </div>
         <div className={styles.options}>
           <div className={styles.links}>
@@ -46,20 +47,20 @@ const Navbar = (props: propsType) => {
 
             <ul>
               <li>
-                <a href="">HOME</a>
+                <NavLink to="/">HOME</NavLink>
               </li>
               <li>
-                <a href="">PROJECTS</a>
+                <NavLink to="/new">NEW PROJECT</NavLink>
               </li>
               <li>
-                <a href="">STORE</a>
+                <NavLink to="/store?page=1">STORE</NavLink>
+              </li>
+              {/* <li>
+                <NavLink to="/artists">ARTISTS</NavLink>
               </li>
               <li>
-                <a href="">ARTISTS</a>
-              </li>
-              <li>
-                <a href="">ABOUT</a>
-              </li>
+                <NavLink to="/about">ABOUT</NavLink>
+              </li> */}
             </ul>
           </div>
           <div className={styles.icons}>
@@ -83,7 +84,7 @@ const Navbar = (props: propsType) => {
                 </a>
               </li>
               <li>
-                <a href="">
+                <NavLink to="/cart">
                   <svg
                     width="25"
                     height="24"
@@ -98,7 +99,7 @@ const Navbar = (props: propsType) => {
                       fill="#161412"
                     />
                   </svg>
-                </a>
+                </NavLink>
               </li>
               <li>
                 <a href="">
@@ -121,7 +122,7 @@ const Navbar = (props: propsType) => {
               </li>
 
               <li>
-                <a href="">
+                <NavLink to="/profile">
                   <svg
                     width="24"
                     height="24"
@@ -144,7 +145,7 @@ const Navbar = (props: propsType) => {
                       strokeLinejoin="round"
                     />
                   </svg>
-                </a>
+                </NavLink>
               </li>
             </ul>
           </div>
