@@ -11,8 +11,9 @@ import image5 from '../../../public/images/store/5.png';
 import image6 from '../../../public/images/store/6.png';
 import { useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
+import RenderTimeWrapper from '../../RenderTimeWrapper';
 
-const Store = () => {
+const Store = ({ renderTime }) => {
   const data = [
     {
       img: image1,
@@ -77,9 +78,17 @@ const Store = () => {
     setSearchParams({ page: String(pageNumber) });
   }, [pageNumber, setSearchParams]);
 
+  console.log(
+    'Store rendered in: ',
+    renderTime ? renderTime.toFixed(2) : 0,
+    'ms',
+  );
+
   return (
     <>
-      <Navbar logoOnly={false} />
+      <RenderTimeWrapper>
+        <Navbar logoOnly={false} />
+      </RenderTimeWrapper>
       <main>
         <Products
           data={data}

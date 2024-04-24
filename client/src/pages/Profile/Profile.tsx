@@ -5,8 +5,9 @@ import ProfileData from '../../components/ProfileData/ProfileData';
 import ProfileWork from '../../components/ProfileWork/ProfileWork';
 import styles from './Profile.module.css';
 
-const Profile = () => {
+const Profile = ({ renderTime }) => {
   const [editProfile, setEditProfile] = useState(false);
+  console.log(renderTime ? renderTime.toFixed(2) : 0);
   return (
     <>
       <Navbar logoOnly={false} />

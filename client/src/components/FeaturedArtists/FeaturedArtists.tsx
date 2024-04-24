@@ -4,7 +4,7 @@ import image1 from '../../../public/images/featured_artists/1.png';
 import image2 from '../../../public/images/featured_artists/2.png';
 import image3 from '../../../public/images/featured_artists/3.png';
 
-const FeaturedArtists = () => {
+const FeaturedArtists = ({ renderTime }) => {
   const artists = [
     {
       img: image1,
@@ -22,6 +22,11 @@ const FeaturedArtists = () => {
       description: 'Jewellery Designer, Daquahliya',
     },
   ];
+  console.log(
+    'FeaturedArtists rendered in: ',
+    renderTime ? renderTime.toFixed(2) : 0,
+    'ms',
+  );
   return (
     <section className={styles.featuredArtists}>
       <div className={styles.container}>

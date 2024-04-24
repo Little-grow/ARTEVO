@@ -1,14 +1,26 @@
+import RenderTimeWrapper from '../../RenderTimeWrapper';
 import FeaturedArtists from '../../components/FeaturedArtists/FeaturedArtists';
 import FeaturedPieces from '../../components/FeaturedPieces/FeaturedPieces';
 import Navbar from '../../components/Navbar/Navbar';
 
-const Home = () => {
+const Home = ({ renderTime }) => {
+  console.log(
+    'Home rendered in: ',
+    renderTime ? renderTime.toFixed(2) : 0,
+    'ms',
+  );
   return (
     <>
-      <Navbar logoOnly={false} />
+      <RenderTimeWrapper>
+        <Navbar logoOnly={false} />
+      </RenderTimeWrapper>
       <main>
-        <FeaturedPieces />
-        <FeaturedArtists />
+        <RenderTimeWrapper>
+          <FeaturedPieces />
+        </RenderTimeWrapper>
+        <RenderTimeWrapper>
+          <FeaturedArtists />
+        </RenderTimeWrapper>
       </main>
     </>
   );

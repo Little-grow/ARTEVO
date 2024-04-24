@@ -4,8 +4,9 @@ import Input from '../../components/Input/Input';
 import Button from '../../components/Button/Button';
 import FormHeader from '../../components/FormHeader/FormHeader';
 import SignImage from '../../components/SignImage/SignImage';
+import RenderTimeWrapper from '../../RenderTimeWrapper';
 
-const Signup = () => {
+const Signup = ({ renderTime }) => {
   const passwordToggle = {
     toggleIcon2: (
       <svg
@@ -69,10 +70,17 @@ const Signup = () => {
     nav: 'signin',
   };
 
+  console.log(
+    'Signup rendered in: ',
+    renderTime ? renderTime.toFixed(2) : 0,
+    'ms',
+  );
   return (
     <>
       <header>
-        <Navbar logoOnly={true} />
+        <RenderTimeWrapper>
+          <Navbar logoOnly={true} />
+        </RenderTimeWrapper>
       </header>
       <main>
         <div className={styles.container}>

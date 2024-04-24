@@ -14,8 +14,9 @@ import image2 from '../public/images/cart/2.png';
 import image3 from '../public/images/cart/3.png';
 import Profile from './pages/Profile/Profile';
 import NewProject from './pages/NewProject/NewProject';
+import RenderTimeWrapper from './RenderTimeWrapper';
 
-function App() {
+function App({ renderTime }) {
   const initialCart = [
     {
       img: image1,
@@ -37,17 +38,78 @@ function App() {
     },
   ];
   const [cartItems, setCartItems] = useState(initialCart);
+  console.log(
+    'App rendered in: ',
+    renderTime ? renderTime.toFixed(2) : 0,
+    'ms',
+  );
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/signup" element={<Signup />} />
-        <Route path="/signin" element={<Signin />} />
-        <Route path="/store" element={<Store />} />
-        <Route path="/product" element={<Product />} />
-        <Route path="/cart" element={<Cart data={cartItems} />} />
-        <Route path="/profile" element={<Profile />} />
-        <Route path="/new" element={<NewProject />} />
+        <Route
+          path="/"
+          element={
+            <RenderTimeWrapper>
+              <Home />
+            </RenderTimeWrapper>
+          }
+        />
+        <Route
+          path="/signup"
+          element={
+            <RenderTimeWrapper>
+              <Signup />
+            </RenderTimeWrapper>
+          }
+        />
+        <Route
+          path="/signin"
+          element={
+            <RenderTimeWrapper>
+              <Signin />
+            </RenderTimeWrapper>
+          }
+        />
+        <Route
+          path="/store"
+          element={
+            <RenderTimeWrapper>
+              <Store />
+            </RenderTimeWrapper>
+          }
+        />
+        <Route
+          path="/product"
+          element={
+            <RenderTimeWrapper>
+              <Product />
+            </RenderTimeWrapper>
+          }
+        />
+        <Route
+          path="/cart"
+          element={
+            <RenderTimeWrapper>
+              <Cart data={cartItems} />
+            </RenderTimeWrapper>
+          }
+        />
+        <Route
+          path="/profile"
+          element={
+            <RenderTimeWrapper>
+              <Profile />
+            </RenderTimeWrapper>
+          }
+        />
+        <Route
+          path="/new"
+          element={
+            <RenderTimeWrapper>
+              <NewProject />
+            </RenderTimeWrapper>
+          }
+        />
         <Route path="*" element={<div>404 Not Found</div>} />
       </Routes>
     </BrowserRouter>

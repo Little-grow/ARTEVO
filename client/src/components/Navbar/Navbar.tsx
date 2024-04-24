@@ -3,9 +3,15 @@ import styles from './Navbar.module.css';
 
 type propsType = {
   logoOnly: boolean;
+  renderTime: number;
 };
 
 const Navbar = (props: propsType) => {
+  console.log(
+    'Navbar rendered in: ',
+    props.renderTime ? props.renderTime.toFixed(2) : 0,
+    'ms',
+  );
   const { logoOnly } = props || false;
   if (logoOnly) {
     return (

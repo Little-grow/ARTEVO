@@ -2,7 +2,7 @@ import styles from './Cart.module.css';
 import Navbar from '../../components/Navbar/Navbar';
 import CartItem from '../../components/CartItem/CartItem';
 
-const Cart = ({ data }) => {
+const Cart = ({ data, renderTime }) => {
   const count = data.length;
   const totalPrice = data.reduce((acc, item) => {
     const price = item.weightPrice * item.weight;
@@ -10,6 +10,11 @@ const Cart = ({ data }) => {
   }, 0);
   const tax = 2.0;
   const shipping = 3.99;
+  console.log(
+    'Cart rendered in: ',
+    renderTime ? renderTime.toFixed(2) : 0,
+    'ms',
+  );
   return (
     <>
       <Navbar logoOnly={false} />

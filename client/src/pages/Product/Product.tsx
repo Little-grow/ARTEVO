@@ -6,7 +6,7 @@ import image2 from '../../../public/images/product/2.png';
 import image3 from '../../../public/images/product/3.png';
 import { useState } from 'react';
 
-const Product = () => {
+const Product = ({ renderTime }) => {
   const [activeImage, setActiveImage] = useState(0);
   const images = [image1, image2, image3];
   const data = {
@@ -17,6 +17,12 @@ const Product = () => {
       'Dynamic and elusive abstraction and texture. Plays between the lines of chaos and serenity. Perfect fit for modern and contemporary styled interiors.',
     price: '650',
   };
+
+  console.log(
+    'Product rendered in: ',
+    renderTime ? renderTime.toFixed(2) : 0,
+    'ms',
+  );
   return (
     <>
       <Navbar logoOnly={false} />

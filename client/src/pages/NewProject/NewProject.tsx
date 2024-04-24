@@ -4,7 +4,7 @@ import Input from '../../components/Input/Input';
 import Navbar from '../../components/Navbar/Navbar';
 import styles from './NewProject.module.css';
 
-const NewProject = () => {
+const NewProject = ({ renderTime }) => {
   const [images, setImages] = useState([]);
 
   const isFileAllowed = (file) => {
@@ -23,6 +23,12 @@ const NewProject = () => {
       reader.readAsDataURL(file);
     }
   }
+
+  console.log(
+    'NewProject rendered in: ',
+    renderTime ? renderTime.toFixed(2) : 0,
+    'ms',
+  );
   return (
     <>
       <Navbar logoOnly={false} />

@@ -7,7 +7,7 @@ import image3 from '../../../public/images/featured_pieces/3.png'; // Import ima
 import image4 from '../../../public/images/featured_pieces/4.png'; // Import image files
 import image5 from '../../../public/images/featured_pieces/5.png'; // Import image files
 
-const FeaturedPieces = () => {
+const FeaturedPieces = ({ renderTime }) => {
   const data = [
     {
       img: image1,
@@ -40,6 +40,11 @@ const FeaturedPieces = () => {
       description: 'Oil on canvas, 2018',
     },
   ];
+  console.log(
+    'FeaturedPieces rendered in: ',
+    renderTime ? renderTime.toFixed(2) : 0,
+    'ms',
+  );
   return (
     <section className={styles.featuredPieces}>
       <div className={styles.container}>
