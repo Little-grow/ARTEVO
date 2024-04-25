@@ -1,0 +1,8 @@
+D:\my codes hole\ARTEVOO\ARTEVO\api\obj\Debug\net8.0\api.csproj.AssemblyReference.cache
+D:\my codes hole\ARTEVOO\ARTEVO\api\obj\Debug\net8.0\api.GeneratedMSBuildEditorConfig.editorconfig
+D:\my codes hole\ARTEVOO\ARTEVO\api\obj\Debug\net8.0\api.AssemblyInfoInputs.cache
+D:\my codes hole\ARTEVOO\ARTEVO\api\obj\Debug\net8.0\api.AssemblyInfo.cs
+D:\my codes hole\ARTEVOO\ARTEVO\api\obj\Debug\net8.0\api.csproj.CoreCompileInputs.cache
+D:\my codes hole\ARTEVOO\ARTEVO\api\obj\Debug\net8.0\api.MvcApplicationPartsAssemblyInfo.cs
+D:\my codes hole\ARTEVOO\ARTEVO\api\obj\Debug\net8.0\api.MvcApplicationPartsAssemblyInfo.cache
+D:\my codes hole\ARTEVOO\ARTEVO\api\obj\Debug\net8.0\api.sourcelink.json
